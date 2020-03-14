@@ -1,0 +1,10 @@
+Google
+Twitter
+Networking
+Monitoring
+Devops
+Ticketing
+Databases
+Software Testing
+Web Development
+Telecommunication
