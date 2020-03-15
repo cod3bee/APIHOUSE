@@ -1,13 +1,19 @@
 .navbar{
-     background:#D1F2EB;
+     background:teal ;
+     font-family: 'Lobster Two', cursive;
 
 }
+
+body {
+    font-family: 'Lobster Two', cursive;}
+
 
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 700px;
+  background-size:contain ;
   position: relative;
   margin: auto;
 }
@@ -18,7 +24,7 @@
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev, .next{
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -74,11 +80,48 @@
 .container{
     text-align: center;
 }
+.container-footer{
+    border-radius: 2px;
+    padding: 10px;
+    color:teal;
+    
+
+}
 
 .card{
+    border-style:solid;
+    border-width:5px;  
+    border-color:teal;
+    height: 360px;
+    width:100%
     background-color: #D1F2EB;
 }
 
 p{
-    color:red;
+    color:rgb(243, 85, 12);
 }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(38, 230, 44);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
